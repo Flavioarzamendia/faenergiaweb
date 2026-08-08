@@ -1,0 +1,13 @@
+{
+  "name": "faenergia-web",
+  "version": "1.0.0",
+  "description": "FA Climatización y Energía - Landing page with Vercel Analytics",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build required'"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.3.1"
+  }
+}
