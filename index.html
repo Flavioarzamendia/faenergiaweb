@@ -235,66 +235,147 @@ details p{color:var(--muted);max-width:800px;padding-top:12px;font-size:15px}
 }
 </style>
 
-<script type="application/ld+json">{
-"@context":"https://schema.org",
-"@graph":[
-  {
-    "@type":"HVACBusiness",
-    "@id":"https://www.faenergia.com.ar/#business",
-    "name":"FA Climatización y Energía",
-    "url":"https://www.faenergia.com.ar/",
-    "telephone":"+54-11-4159-1364",
-    "email":"contacto@faenergia.com.ar",
-    "address":{
-      "@type":"PostalAddress",
-      "addressLocality":"Buenos Aires",
-      "addressRegion":"Buenos Aires",
-      "addressCountry":"AR"
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Electrician",
+      "@id": "https://www.faenergia.com.ar/#business",
+      "name": "FA Climatización y Energía",
+      "url": "https://www.faenergia.com.ar/",
+      "telephone": "+54 11 4159-1364",
+      "description": "Servicios de electricidad, climatización y energía solar para hogares y comercios en CABA y Gran Buenos Aires.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Buenos Aires",
+        "addressCountry": "AR"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Ciudad Autónoma de Buenos Aires"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gran Buenos Aires"
+        }
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+54 11 4159-1364",
+        "contactType": "customer service",
+        "availableLanguage": "es"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Servicios de FA Climatización y Energía",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://www.faenergia.com.ar/#electricidad",
+              "name": "Electricidad",
+              "serviceType": "Servicios de electricidad",
+              "description": "Instalaciones eléctricas, ampliaciones, tableros eléctricos, iluminación LED, diagnóstico, reparación y mantenimiento."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://www.faenergia.com.ar/#climatizacion",
+              "name": "Climatización y aire acondicionado",
+              "serviceType": "Climatización",
+              "description": "Instalación, mantenimiento, limpieza, diagnóstico y reparación de equipos de aire acondicionado."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://www.faenergia.com.ar/#energia-solar",
+              "name": "Energía solar",
+              "serviceType": "Energía solar",
+              "description": "Evaluación de consumo, asesoramiento en sistemas fotovoltaicos, paneles solares, inversores y eficiencia energética."
+            }
+          }
+        ]
+      }
     },
-    "areaServed":[
-      {"@type":"AdministrativeArea","name":"Ciudad Autónoma de Buenos Aires"},
-      {"@type":"AdministrativeArea","name":"Gran Buenos Aires (AMBA)"}
-    ],
-    "serviceType":["Electricidad","Climatización","Aire acondicionado","Energías renovables","Paneles solares"],
-
-    "openingHoursSpecification":{
-      "@type":"OpeningHoursSpecification",
-      "dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-      "opens":"08:00",
-      "closes":"18:00"
+    {
+      "@type": "WebSite",
+      "@id": "https://www.faenergia.com.ar/#website",
+      "url": "https://www.faenergia.com.ar/",
+      "name": "FA Climatización y Energía",
+      "description": "Electricidad, climatización y energía solar en Buenos Aires, CABA y AMBA.",
+      "publisher": {
+        "@id": "https://www.faenergia.com.ar/#business"
+      },
+      "inLanguage": "es-AR"
     },
-    "image":"https://www.faenergia.com.ar/logo.png",
-    "sameAs":[],
-    "hasOfferCatalog":{
-      "@type":"OfferCatalog",
-      "name":"Servicios",
-      "itemListElement":[
-        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Instalación y reparación eléctrica"}},
-        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Instalación y mantenimiento de aire acondicionado"}},
-        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Evaluación e instalación de paneles solares"}}
+    {
+      "@type": "WebPage",
+      "@id": "https://www.faenergia.com.ar/#webpage",
+      "url": "https://www.faenergia.com.ar/",
+      "name": "Electricidad, Climatización y Energía Solar en Buenos Aires",
+      "description": "Servicios de electricidad, climatización y energía solar en Buenos Aires. Instalación, mantenimiento, diagnóstico y reparación para hogares y comercios.",
+      "isPartOf": {
+        "@id": "https://www.faenergia.com.ar/#website"
+      },
+      "about": {
+        "@id": "https://www.faenergia.com.ar/#business"
+      },
+      "inLanguage": "es-AR"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.faenergia.com.ar/#faq",
+      "url": "https://www.faenergia.com.ar/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Puedo consultar aunque no sepa qué servicio necesito?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Podés explicar el problema para orientar la consulta y determinar si corresponde a electricidad, climatización o energía solar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Realizan trabajos para viviendas y comercios?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Se pueden consultar trabajos residenciales y comerciales de electricidad, climatización y energía solar, según el alcance del proyecto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué conviene enviar por WhatsApp para agilizar la consulta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Localidad, descripción del problema, fotografías o video y, cuando corresponda, marca y modelo del equipo o fotografía del tablero eléctrico."
+          }
+        }
       ]
     }
-  },
-  {
-    "@type":"BreadcrumbList",
-    "itemListElement":[{
-      "@type":"ListItem",
-      "position":1,
-      "name":"Inicio",
-      "item":"https://www.faenergia.com.ar/"
-    }]
-  }
-]
-}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-{"@type":"Question","name":"¿Cómo pido un presupuesto de electricidad o climatización?","acceptedAnswer":{"@type":"Answer","text":"Por WhatsApp, indicando localidad (CABA, Zona Norte, Oeste o Sur), tipo de trabajo y una descripción. Fotos o video del tablero, el equipo o el ambiente ayudan a orientar el presupuesto antes de coordinar una visita."}},
-{"@type":"Question","name":"¿Puedo consultar aunque no sepa qué servicio necesito?","acceptedAnswer":{"@type":"Answer","text":"Sí. Se puede describir el problema en lenguaje simple —por ejemplo 'me salta la térmica' o 'el aire no enfría'— y desde ahí se orienta si corresponde a electricidad, climatización o energía solar."}},
-{"@type":"Question","name":"¿El precio se puede dar por WhatsApp?","acceptedAnswer":{"@type":"Answer","text":"Algunos trabajos se pueden estimar con fotos y datos del problema. Otros, especialmente instalaciones o diagnósticos más complejos, requieren revisar el lugar en CABA o Gran Buenos Aires antes de definir el alcance y el costo."}},
-{"@type":"Question","name":"¿Trabajan en toda Buenos Aires y el AMBA?","acceptedAnswer":{"@type":"Answer","text":"La cobertura se confirma según la localidad y el tipo de trabajo. Se recomienda consultar la zona puntual por WhatsApp antes de coordinar."}},
-{"@type":"Question","name":"¿Hacen trabajos para viviendas y comercios?","acceptedAnswer":{"@type":"Answer","text":"Se atienden consultas residenciales y comerciales de electricidad, climatización y energía solar, según el alcance del proyecto."}},
-{"@type":"Question","name":"¿Qué conviene enviar por WhatsApp para agilizar la consulta?","acceptedAnswer":{"@type":"Answer","text":"Localidad, una descripción del problema, fotos o video, y cuando corresponda, marca y modelo del equipo o una foto del tablero eléctrico."}},
-{"@type":"Question","name":"¿Se puede saber el presupuesto antes de que empiece el trabajo?","acceptedAnswer":{"@type":"Answer","text":"Sí, el presupuesto se define y comunica antes de iniciar cualquier trabajo, para que quede claro el alcance y el costo desde el principio."}}
-]}</script>
+  ]
+}
+</script>
 <base>
 </head>
 
