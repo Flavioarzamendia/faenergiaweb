@@ -246,9 +246,11 @@ details p{color:var(--muted);max-width:800px;padding-top:12px;font-size:15px}
       "url": "https://www.faenergia.com.ar/",
       "telephone": "+54 11 4159-1364",
       "description": "Servicios de electricidad, climatización y energía solar para hogares y comercios en CABA y Gran Buenos Aires.",
+      "image": "https://www.faenergia.com.ar/",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Buenos Aires",
+        "addressRegion": "Buenos Aires",
         "addressCountry": "AR"
       },
       "areaServed": [
@@ -278,17 +280,16 @@ details p{color:var(--muted);max-width:800px;padding-top:12px;font-size:15px}
         "@type": "ContactPoint",
         "telephone": "+54 11 4159-1364",
         "contactType": "customer service",
-        "availableLanguage": "es"
+        "availableLanguage": "Spanish"
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Servicios de FA Climatización y Energía",
+        "name": "Servicios",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "@id": "https://www.faenergia.com.ar/#electricidad",
               "name": "Electricidad",
               "serviceType": "Servicios de electricidad",
               "description": "Instalaciones eléctricas, ampliaciones, tableros eléctricos, iluminación LED, diagnóstico, reparación y mantenimiento."
@@ -298,9 +299,8 @@ details p{color:var(--muted);max-width:800px;padding-top:12px;font-size:15px}
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "@id": "https://www.faenergia.com.ar/#climatizacion",
-              "name": "Climatización y aire acondicionado",
-              "serviceType": "Climatización",
+              "name": "Climatización",
+              "serviceType": "Climatización y aire acondicionado",
               "description": "Instalación, mantenimiento, limpieza, diagnóstico y reparación de equipos de aire acondicionado."
             }
           },
@@ -308,7 +308,6 @@ details p{color:var(--muted);max-width:800px;padding-top:12px;font-size:15px}
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "@id": "https://www.faenergia.com.ar/#energia-solar",
               "name": "Energía solar",
               "serviceType": "Energía solar",
               "description": "Evaluación de consumo, asesoramiento en sistemas fotovoltaicos, paneles solares, inversores y eficiencia energética."
@@ -324,7 +323,9 @@ details p{color:var(--muted);max-width:800px;padding-top:12px;font-size:15px}
       "name": "FA Climatización y Energía",
       "description": "Electricidad, climatización y energía solar en Buenos Aires, CABA y AMBA.",
       "publisher": {
-        "@id": "https://www.faenergia.com.ar/#business"
+        "@type": "Organization",
+        "name": "FA Climatización y Energía",
+        "url": "https://www.faenergia.com.ar/"
       },
       "inLanguage": "es-AR"
     },
@@ -346,6 +347,8 @@ details p{color:var(--muted);max-width:800px;padding-top:12px;font-size:15px}
       "@type": "FAQPage",
       "@id": "https://www.faenergia.com.ar/#faq",
       "url": "https://www.faenergia.com.ar/#faq",
+      "name": "Preguntas frecuentes sobre electricidad, climatización y energía solar",
+      "description": "Respuestas a preguntas frecuentes sobre servicios de electricidad, climatización y energía solar de FA Climatización y Energía.",
       "mainEntity": [
         {
           "@type": "Question",
