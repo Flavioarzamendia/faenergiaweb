@@ -4,46 +4,46 @@
 
 ## Información de contacto
 
-* **WhatsApp:** +54 11 4159-1364
-* **Ubicación:** Buenos Aires, Argentina
-* **Horario:** Lunes a Sábado, 08:00–18:00
-* **Web:** https://www.faenergia.com.ar/
+- **WhatsApp:** +54 11 4159-1364
+- **Ubicación:** Buenos Aires, Argentina
+- **Horario:** Lunes a Sábado, 08:00–18:00
+- **Web:** https://www.faenergia.com.ar/
 
 ## Servicios
 
 ### Electricidad
 
-* Instalaciones eléctricas nuevas y ampliaciones
-* Tableros eléctricos: revisión, reorganización y adecuación
-* Iluminación LED
-* Diagnóstico y reparación de fallas eléctricas
-* Resolución de disparos de protecciones y cortocircuitos
-* Mantenimiento eléctrico para hogares y comercios
+- Instalaciones eléctricas nuevas y ampliaciones
+- Tableros eléctricos: revisión, reorganización y adecuación
+- Iluminación LED
+- Diagnóstico y reparación de fallas eléctricas
+- Resolución de disparos de protecciones y cortocircuitos
+- Mantenimiento eléctrico para hogares y comercios
 
 ### Climatización
 
-* Instalación de aire acondicionado split
-* Mantenimiento y limpieza de equipos
-* Diagnóstico de fallas
-* Control de funcionamiento y rendimiento
-* Reparación y mantenimiento de equipos
+- Instalación de aire acondicionado split
+- Mantenimiento y limpieza de equipos
+- Diagnóstico de fallas
+- Control de funcionamiento y rendimiento
+- Reparación y mantenimiento de equipos
 
 ### Energía Solar
 
-* Evaluación del consumo eléctrico a partir de la factura
-* Asesoramiento en sistemas fotovoltaicos
-* Paneles solares e inversores
-* Evaluación de eficiencia energética
-* Orientación para el dimensionamiento de sistemas solares
+- Evaluación del consumo eléctrico a partir de la factura
+- Asesoramiento en sistemas fotovoltaicos
+- Paneles solares e inversores
+- Evaluación de eficiencia energética
+- Orientación para el dimensionamiento de sistemas solares
 
 ## Zona de cobertura
 
 Atención en CABA y Gran Buenos Aires (AMBA):
 
-* CABA (Capital Federal)
-* Zona Norte
-* Zona Oeste
-* Zona Sur
+- CABA (Capital Federal)
+- Zona Norte
+- Zona Oeste
+- Zona Sur
 
 La disponibilidad depende de la localidad y del tipo de trabajo. Se recomienda consultar antes de coordinar.
 
@@ -70,9 +70,9 @@ Localidad, descripción del problema, fotografías o video y, cuando corresponda
 
 ## Enlaces principales
 
-* Inicio: https://www.faenergia.com.ar/
-* Servicios: https://www.faenergia.com.ar/#servicios
-* Problemas frecuentes: https://www.faenergia.com.ar/#problemas
-* Proceso de trabajo: https://www.faenergia.com.ar/#proceso
-* Preguntas frecuentes: https://www.faenergia.com.ar/#faq
-* Contacto por WhatsApp: https://wa.me/541141591364
+- Inicio: https://www.faenergia.com.ar/
+- Servicios: https://www.faenergia.com.ar/#servicios
+- Problemas frecuentes: https://www.faenergia.com.ar/#problemas
+- Proceso de trabajo: https://www.faenergia.com.ar/#proceso
+- Preguntas frecuentes: https://www.faenergia.com.ar/#faq
+- Contacto por WhatsApp: https://wa.me/541141591364
